@@ -74,6 +74,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057699BD1C832DE600C05D79 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				057699C51C832F1000C05D79 /* servives */,
+				05D604661C832349005C914F /* AppDelegate.swift */,
+				057699C41C832EE000C05D79 /* managers */,
+				057699C31C832EDA00C05D79 /* models */,
+				057699C21C832ED500C05D79 /* controllers */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		057699BE1C832DEF00C05D79 /* ressource */ = {
+			isa = PBXGroup;
+			children = (
+				057699C11C832EB700C05D79 /* plist */,
+				057699C01C832E5200C05D79 /* assets */,
+				057699BF1C832E2A00C05D79 /* storyboard */,
+			);
+			name = ressource;
+			sourceTree = "<group>";
+		};
+		057699BF1C832E2A00C05D79 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				05D6046A1C832349005C914F /* Main.storyboard */,
+				05D6046F1C832349005C914F /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		057699C01C832E5200C05D79 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				05D6046D1C832349005C914F /* Assets.xcassets */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		057699C11C832EB700C05D79 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				05D604721C832349005C914F /* Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		057699C21C832ED500C05D79 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05D604681C832349005C914F /* ViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		057699C31C832EDA00C05D79 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		057699C41C832EE000C05D79 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		057699C51C832F1000C05D79 /* servives */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = servives;
+			sourceTree = "<group>";
+		};
 		05D6045A1C832349005C914F = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +173,8 @@
 		05D604651C832349005C914F /* parky */ = {
 			isa = PBXGroup;
 			children = (
-				05D604661C832349005C914F /* AppDelegate.swift */,
-				05D604681C832349005C914F /* ViewController.swift */,
-				05D6046A1C832349005C914F /* Main.storyboard */,
-				05D6046D1C832349005C914F /* Assets.xcassets */,
-				05D6046F1C832349005C914F /* LaunchScreen.storyboard */,
-				05D604721C832349005C914F /* Info.plist */,
+				057699BE1C832DEF00C05D79 /* ressource */,
+				057699BD1C832DE600C05D79 /* classes */,
 			);
 			path = parky;
 			sourceTree = "<group>";
@@ -484,6 +556,7 @@
 				05D6048D1C832349005C914F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D6048E1C832349005C914F /* Build configuration list for PBXNativeTarget "parkyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +565,7 @@
 				05D604901C832349005C914F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D604911C832349005C914F /* Build configuration list for PBXNativeTarget "parkyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +574,7 @@
 				05D604931C832349005C914F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
