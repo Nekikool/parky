@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055F52141C9F266C00DE84BA /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F52131C9F266C00DE84BA /* PinAnnotation.swift */; };
+		05A703551C9738040008A8A1 /* UIButton+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A703541C9738040008A8A1 /* UIButton+border.swift */; };
+		05C190141C9837AE006EBBA3 /* picto_GeolocalisationBlanc.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C190131C9837AE006EBBA3 /* picto_GeolocalisationBlanc.png */; };
 		05D604671C832349005C914F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D604661C832349005C914F /* AppDelegate.swift */; };
 		05D604691C832349005C914F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D604681C832349005C914F /* ViewController.swift */; };
 		05D6046C1C832349005C914F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6046A1C832349005C914F /* Main.storyboard */; };
@@ -14,6 +17,16 @@
 		05D604711C832349005C914F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6046F1C832349005C914F /* LaunchScreen.storyboard */; };
 		05D6047C1C832349005C914F /* parkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6047B1C832349005C914F /* parkyTests.swift */; };
 		05D604871C832349005C914F /* parkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D604861C832349005C914F /* parkyUITests.swift */; };
+		05DA22821CA8400B006A9783 /* Quicksand_Bold_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA227B1CA8400B006A9783 /* Quicksand_Bold_Oblique.otf */; };
+		05DA22831CA8400B006A9783 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA227C1CA8400B006A9783 /* Quicksand_Bold.otf */; };
+		05DA22841CA8400B006A9783 /* Quicksand_Book_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA227D1CA8400B006A9783 /* Quicksand_Book_Oblique.otf */; };
+		05DA22851CA8400B006A9783 /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA227E1CA8400B006A9783 /* Quicksand_Book.otf */; };
+		05DA22861CA8400B006A9783 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA227F1CA8400B006A9783 /* Quicksand_Dash.otf */; };
+		05DA22871CA8400B006A9783 /* Quicksand_Light_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA22801CA8400B006A9783 /* Quicksand_Light_Oblique.otf */; };
+		05DA22881CA8400B006A9783 /* Quicksand_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05DA22811CA8400B006A9783 /* Quicksand_Light.otf */; };
+		05DD18F41C8C992A005A56BB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD18F31C8C992A005A56BB /* Router.swift */; };
+		05DD18F61C8CD66D005A56BB /* Horodateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD18F51C8CD66D005A56BB /* Horodateur.swift */; };
+		89E5F424C10B9A39720F471A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6E011D0EA05D77BD789A5B /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055F52131C9F266C00DE84BA /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		05A703541C9738040008A8A1 /* UIButton+border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+border.swift"; sourceTree = "<group>"; };
+		05C190131C9837AE006EBBA3 /* picto_GeolocalisationBlanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picto_GeolocalisationBlanc.png; path = ../../Downloads/picto_GeolocalisationBlanc.png; sourceTree = "<group>"; };
 		05D604631C832349005C914F /* parky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D604661C832349005C914F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D604681C832349005C914F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,18 @@
 		05D604821C832349005C914F /* parkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D604861C832349005C914F /* parkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkyUITests.swift; sourceTree = "<group>"; };
 		05D604881C832349005C914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA227B1CA8400B006A9783 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold_Oblique.otf; path = ../../Downloads/quicksand/Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
+		05DA227C1CA8400B006A9783 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold.otf; path = ../../Downloads/quicksand/Quicksand_Bold.otf; sourceTree = "<group>"; };
+		05DA227D1CA8400B006A9783 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book_Oblique.otf; path = ../../Downloads/quicksand/Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		05DA227E1CA8400B006A9783 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book.otf; path = ../../Downloads/quicksand/Quicksand_Book.otf; sourceTree = "<group>"; };
+		05DA227F1CA8400B006A9783 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../Downloads/quicksand/Quicksand_Dash.otf; sourceTree = "<group>"; };
+		05DA22801CA8400B006A9783 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light_Oblique.otf; path = ../../Downloads/quicksand/Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		05DA22811CA8400B006A9783 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light.otf; path = ../../Downloads/quicksand/Quicksand_Light.otf; sourceTree = "<group>"; };
+		05DD18F31C8C992A005A56BB /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		05DD18F51C8CD66D005A56BB /* Horodateur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horodateur.swift; sourceTree = "<group>"; };
+		1C6E011D0EA05D77BD789A5B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF126C5359FED78972CA1B0F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB15CC181F80D0D8117C380B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E5F424C10B9A39720F471A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +118,13 @@
 		057699BE1C832DEF00C05D79 /* ressource */ = {
 			isa = PBXGroup;
 			children = (
+				05DA227B1CA8400B006A9783 /* Quicksand_Bold_Oblique.otf */,
+				05DA227C1CA8400B006A9783 /* Quicksand_Bold.otf */,
+				05DA227D1CA8400B006A9783 /* Quicksand_Book_Oblique.otf */,
+				05DA227E1CA8400B006A9783 /* Quicksand_Book.otf */,
+				05DA227F1CA8400B006A9783 /* Quicksand_Dash.otf */,
+				05DA22801CA8400B006A9783 /* Quicksand_Light_Oblique.otf */,
+				05DA22811CA8400B006A9783 /* Quicksand_Light.otf */,
 				057699C11C832EB700C05D79 /* plist */,
 				057699C01C832E5200C05D79 /* assets */,
 				057699BF1C832E2A00C05D79 /* storyboard */,
@@ -108,6 +144,7 @@
 		057699C01C832E5200C05D79 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				05C190131C9837AE006EBBA3 /* picto_GeolocalisationBlanc.png */,
 				05D6046D1C832349005C914F /* Assets.xcassets */,
 			);
 			name = assets;
@@ -125,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				05D604681C832349005C914F /* ViewController.swift */,
+				05A703541C9738040008A8A1 /* UIButton+border.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -132,6 +170,8 @@
 		057699C31C832EDA00C05D79 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				05DD18F51C8CD66D005A56BB /* Horodateur.swift */,
+				055F52131C9F266C00DE84BA /* PinAnnotation.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -146,6 +186,7 @@
 		057699C51C832F1000C05D79 /* servives */ = {
 			isa = PBXGroup;
 			children = (
+				05DD18F31C8C992A005A56BB /* Router.swift */,
 			);
 			name = servives;
 			sourceTree = "<group>";
@@ -157,6 +198,8 @@
 				05D6047A1C832349005C914F /* parkyTests */,
 				05D604851C832349005C914F /* parkyUITests */,
 				05D604641C832349005C914F /* Products */,
+				E960756BBCA3AA028650D9F0 /* Pods */,
+				85EFEB61F3FA8173EEA72F7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +240,23 @@
 			path = parkyUITests;
 			sourceTree = "<group>";
 		};
+		85EFEB61F3FA8173EEA72F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E011D0EA05D77BD789A5B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E960756BBCA3AA028650D9F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF126C5359FED78972CA1B0F /* Pods.debug.xcconfig */,
+				FB15CC181F80D0D8117C380B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05D6048B1C832349005C914F /* Build configuration list for PBXNativeTarget "parky" */;
 			buildPhases = (
+				DEB8C94B63FB1176D2F2958D /* Check Pods Manifest.lock */,
 				05D6045F1C832349005C914F /* Sources */,
 				05D604601C832349005C914F /* Frameworks */,
 				05D604611C832349005C914F /* Resources */,
+				E4D87D1A8E1FFF737B530DC7 /* Embed Pods Frameworks */,
+				A2BCC6A62ED4D074AFC68C36 /* Copy Pods Resources */,
+				05A703531C95B3310008A8A1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -301,9 +365,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C190141C9837AE006EBBA3 /* picto_GeolocalisationBlanc.png in Resources */,
+				05DA22841CA8400B006A9783 /* Quicksand_Book_Oblique.otf in Resources */,
+				05DA22871CA8400B006A9783 /* Quicksand_Light_Oblique.otf in Resources */,
+				05DA22881CA8400B006A9783 /* Quicksand_Light.otf in Resources */,
 				05D604711C832349005C914F /* LaunchScreen.storyboard in Resources */,
+				05DA22831CA8400B006A9783 /* Quicksand_Bold.otf in Resources */,
 				05D6046E1C832349005C914F /* Assets.xcassets in Resources */,
 				05D6046C1C832349005C914F /* Main.storyboard in Resources */,
+				05DA22861CA8400B006A9783 /* Quicksand_Dash.otf in Resources */,
+				05DA22851CA8400B006A9783 /* Quicksand_Book.otf in Resources */,
+				05DA22821CA8400B006A9783 /* Quicksand_Bold_Oblique.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,12 +395,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A703531C95B3310008A8A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 7eba8c41c7c492ce3106dab3fa66e79c4d796a9c f1c051aecf63e4857515b0772a7a057446c270b87533d28e0d2228590a56be42";
+		};
+		A2BCC6A62ED4D074AFC68C36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB8C94B63FB1176D2F2958D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D87D1A8E1FFF737B530DC7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05D6045F1C832349005C914F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A703551C9738040008A8A1 /* UIButton+border.swift in Sources */,
+				05DD18F61C8CD66D005A56BB /* Horodateur.swift in Sources */,
 				05D604691C832349005C914F /* ViewController.swift in Sources */,
+				05DD18F41C8C992A005A56BB /* Router.swift in Sources */,
+				055F52141C9F266C00DE84BA /* PinAnnotation.swift in Sources */,
 				05D604671C832349005C914F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,23 +606,32 @@
 		};
 		05D6048C1C832349005C914F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF126C5359FED78972CA1B0F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexis Suard (N735RCC8U2)";
 				INFOPLIST_FILE = parky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatcontest.parky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68be15a2-aa15-432c-9eb5-4b879e033659";
 			};
 			name = Debug;
 		};
 		05D6048D1C832349005C914F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB15CC181F80D0D8117C380B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexis Suard (N735RCC8U2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alexis Suard (P9483E4355)";
 				INFOPLIST_FILE = parky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatcontest.parky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "13797680-31d2-4a68-a8ab-0fd8caad81f0";
 			};
 			name = Release;
 		};
